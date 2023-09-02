@@ -6,13 +6,14 @@ import { Essentials } from './Essentials'
 import { Careers } from './Careers'
 import { Footer } from './Footer'
 import { Paper } from './Paper'
+import {Dive }   from './Dive'
 
 export const Landingpage:React.FC = () => {
   return (
     <div>
         <Hero />
         <Paper />
-        
+        <Dive />
         <Teams />
         <Essentials />
         <Careers />

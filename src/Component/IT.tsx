@@ -12,6 +12,10 @@ interface Iporps{
 const Cont =styled.div`
   /* background-color: red; */
   width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 250px;
+  left: 0;
  
 `
 const Holder = styled.div`
@@ -19,10 +23,11 @@ display: flex;
 justify-content: center;
 `;
 const First = styled.div`
+text-align: left;
 
   h3 {
     font-size: 24px;
-    width: 380px;
+    width: 350px;
   }
 
   a {

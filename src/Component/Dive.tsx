@@ -10,25 +10,20 @@ import pic4 from "../assets/Image/logos-atlas-icon-gradient-blue.svg";
 
 
 
-interface Iprops{
-  changePage:()=>void
 
-}
 const Container = styled.div`
 width: 100%;
+height: 110vh;
 background-color: #ffffff;
-position: absolute;
-  top: 250px;
-  left: 0;
 `;
 const Holder = styled.div`
 display: flex;
 justify-content: center;
 `;
 const First = styled.div`
-text-align: left;
+
   h3 {
-    font-size: 24px;
+  font-size: 24px;
   width: 350px;
   }
 
@@ -59,9 +54,9 @@ const Second = styled.div`
 
 
 
-export const Work: React.FC <Iprops>= ({changePage}) => {
+export const Dive: React.FC = () => {
   return (
-    <Container onClick={changePage}>
+    <Container>
       <Holder>
         <First>
           <h3>

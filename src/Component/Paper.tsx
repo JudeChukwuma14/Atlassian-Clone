@@ -11,6 +11,7 @@ const Container = styled.div`
   background-position: center;
   background-size: cover;
   text-align: center;
+  position: relative;
 
   h2{
     margin: 0;
@@ -33,19 +34,19 @@ export const Paper: React.FC = () => {
   const [Ail, setAilge]= useState<boolean>(false)
 
   const changePage =()=>{
-    setPage(!page)
+    setPage(true)
     setIT(false)
     setAilge(false)
   }
 
   const changeIT=()=>{
-    setIT(!itPage)
+    setIT(true)
     setPage(false)
     setAilge(false)
   }
 
   const changeAilge =()=>{
-    setAilge(!Ail)
+    setAilge(true)
     setIT(false)
     setPage(false)
   }

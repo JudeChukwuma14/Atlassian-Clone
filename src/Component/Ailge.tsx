@@ -16,12 +16,16 @@ interface Iprops {
 const Container = styled.div`
   width: 100%;
   background-color: #f8fbff;
+  position: absolute;
+  top: 250px;
+  left: 0;
 `;
 const Holder = styled.div`
   display: flex;
   justify-content: center;
 `;
 const First = styled.div`
+text-align: left;
   h3 {
     font-size: 24px;
     width: 380px;
